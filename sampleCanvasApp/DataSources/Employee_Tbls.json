@@ -1,0 +1,274 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr7dc_employee_tbls",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr7dc_employee_tbl",
+    "Name": "Employee_Tbls",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr7dc_bankaccount": "Bank account #",
+      "cr7dc_bloodgroup": "Blood Group",
+      "cr7dc_contact": "Contact",
+      "cr7dc_ctc": "CTC",
+      "cr7dc_dateofbirth": "Date of Birth",
+      "cr7dc_dateofjoining": "Date of Joining",
+      "cr7dc_designation": "Designation",
+      "cr7dc_email": "Email",
+      "cr7dc_emercontact": "Emer. Contact #",
+      "cr7dc_emercontactpersonname": "Emer. Contact Person Name",
+      "cr7dc_employee_tbl_AsyncOperations": "System Jobs",
+      "cr7dc_employee_tbl_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr7dc_employee_tbl_DuplicateBaseRecord": "Duplicate Records (cr7dc_employee_tbl_DuplicateBaseRecord)",
+      "cr7dc_employee_tbl_DuplicateMatchingRecord": "Duplicate Records (cr7dc_employee_tbl_DuplicateMatchingRecord)",
+      "cr7dc_employee_tbl_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr7dc_employee_tbl_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr7dc_employee_tbl_ProcessSession": "Process Sessions",
+      "cr7dc_employee_tbl_SyncErrors": "Sync Errors",
+      "cr7dc_employee_tblid": "Employee_Tbl",
+      "cr7dc_employeeid": "EmployeeId",
+      "cr7dc_employeeidnumber": "Employee Id Number",
+      "cr7dc_employeetype": "Employee Type",
+      "cr7dc_experience": "Experience",
+      "cr7dc_firstname": "First Name",
+      "cr7dc_gender": "Gender",
+      "cr7dc_lastname": "Last Name",
+      "cr7dc_location": "Location",
+      "cr7dc_medicalinsuranceid": "Medical Insurance ID",
+      "cr7dc_panid": "PAN ID",
+      "cr7dc_pfid": "PF ID#",
+      "cr7dc_reportingto": "Reporting To",
+      "cr7dc_systemrole": "System Role",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Employee_Tbls",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Employee_Tbls (Views)",
+    "Name": "_cr7dc_employee_tbl_views",
+    "RelatedEntityName": "Employee_Tbls",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3018c252-5225-4ac8-ba59-47f410c1b818": "Active Employee_Tbls",
+      "30c888c6-90e5-41b0-b03c-dbec9fbdc42d": "Employee_Tbl Associated View",
+      "94dcde90-eac4-4fbe-9c63-7b5365b93524": "Employee_Tbl Lookup View",
+      "a1818c83-28bf-4040-9902-2158c6f0af9e": "Inactive Employee_Tbls",
+      "ffb0b7ba-ff33-41c7-9f1c-26e89f9f3cc4": "Employee_Tbl Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Designation (Employee_Tbls)",
+    "Name": "cr7dc_employee_tbl_cr7dc_designation",
+    "OptionSetInfoNameMapping": {
+      "860850000": "Software Trainee",
+      "860850001": "Software Engineer",
+      "860850002": "Senior Software Engineer",
+      "860850003": "Team Leader",
+      "860850004": "Project Leader",
+      "860850005": "Project Manager ",
+      "860850006": "Graphic Designer",
+      "860850007": "Delivery Manager ",
+      "860850008": "Director ",
+      "860850009": "Vice President ",
+      "860850010": "Marketing Analyst ",
+      "860850011": "Accountant ",
+      "860850012": "Finance Controller ",
+      "860850013": "HR Executive",
+      "860850014": "HR Manager ",
+      "860850015": "Admin Manager",
+      "860850016": "Recruitment Manager",
+      "860850017": "Junior Software Engineer",
+      "860850018": "Business Analyst",
+      "860850019": "Prg. Manager"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr7dc_designation",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr7dc_designation",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Location (Employee_Tbls)",
+    "Name": "cr7dc_employee_tbl_cr7dc_location",
+    "OptionSetInfoNameMapping": {
+      "860850000": "India",
+      "860850001": "USA"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr7dc_location",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr7dc_location",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "System Role (Employee_Tbls)",
+    "Name": "cr7dc_employee_tbl_cr7dc_systemrole",
+    "OptionSetInfoNameMapping": {
+      "860850000": "Super Admin",
+      "860850001": "Admin",
+      "860850002": "HR",
+      "860850003": "Member",
+      "860850004": "Manager"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr7dc_systemrole",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr7dc_systemrole",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Employee_Tbls)",
+    "Name": "cr7dc_employee_tbl_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Employee_Tbls)",
+    "Name": "cr7dc_employee_tbl_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "EmployeeType",
+    "Name": "cr7dc_employeetype",
+    "OptionSetInfoNameMapping": {
+      "860850000": "Full time employee",
+      "860850001": "Part time employee",
+      "860850002": "Contractor",
+      "860850003": "Vendor",
+      "860850004": "Intern"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr7dc_employeetype",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr7dc_employeetype",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Gender Choice",
+    "Name": "cr7dc_genderchoice",
+    "OptionSetInfoNameMapping": {
+      "860850000": "Male",
+      "860850001": "Female",
+      "860850002": "Others"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr7dc_gender",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr7dc_gender",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Reporting To",
+    "Name": "cr7dc_reportingto",
+    "OptionSetInfoNameMapping": {
+      "860850000": "Vinoth kumar ganesan",
+      "860850001": "Praveen kumar kanagavel",
+      "860850002": "Selvapriya",
+      "860850003": "shankar ganeash",
+      "860850004": "sam vishal",
+      "860850005": "rajkumar",
+      "860850006": "raja jacob",
+      "860850007": "prakash",
+      "860850008": "narasimman",
+      "860850009": "suresh",
+      "860850010": "ganapathi",
+      "860850011": "satya prakash",
+      "860850012": "Noorudin S"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr7dc_reportingto",
+        "OptionSetReferenceEntityName": "Employee_Tbls"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr7dc_reportingto",
+    "RelatedEntityName": "Employee_Tbls",
+    "Type": "OptionSetInfo"
+  }
+]

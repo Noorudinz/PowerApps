@@ -1,0 +1,78 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Gallery1": 4,
+    "galleryTemplate1": 5,
+    "Image1": 6,
+    "NextArrow1": 8,
+    "Screen1": 3,
+    "Separator1": 10,
+    "Subtitle1": 9,
+    "Title1": 7
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/14/2022 05:50:10",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 9,
+    "Employee_Tbls": 10,
+    "Employee_Tbls\\cr7dc_employee_tbl_cr7dc_designation": 0,
+    "Employee_Tbls\\cr7dc_employee_tbl_cr7dc_location": 4,
+    "Employee_Tbls\\cr7dc_employee_tbl_cr7dc_systemrole": 5,
+    "Employee_Tbls\\cr7dc_employee_tbl_statecode": 6,
+    "Employee_Tbls\\cr7dc_employee_tbl_statuscode": 7,
+    "Employee_Tbls\\cr7dc_employeetype": 1,
+    "Employee_Tbls\\cr7dc_genderchoice": 3,
+    "Employee_Tbls\\cr7dc_reportingto": 2,
+    "Employee_Tbls\\default.cds_cr7dc_employee_tbl_views": 8
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 0,
+    "icon": 3,
+    "image": 1,
+    "label": 2,
+    "rectangle": 4
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Gallery1": 0,
+    "galleryTemplate1": 1,
+    "Image1": 2,
+    "NextArrow1": 4,
+    "Screen1": 0,
+    "Separator1": 6,
+    "Subtitle1": 5,
+    "Title1": 3
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1468934,
+    "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "image": 1,
+      "label": 2,
+      "rectangle": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 1.5081906,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": false
+}
