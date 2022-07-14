@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr7dc_employee_tbl",
+    "MaxGetRowsCount": 500,
     "Name": "Employee_Tbls",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
