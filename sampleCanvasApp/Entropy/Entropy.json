@@ -7,13 +7,14 @@
     "Image1": 6,
     "NextArrow1": 8,
     "Screen1": 3,
-    "Separator1": 11,
+    "Separator1": 10,
     "Subtitle1": 9,
+    "Subtitle1_1": 11,
     "Title1": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/14/2022 14:29:08",
+  "HeaderLastSavedDateTimeUTC": "07/14/2022 15:45:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -23,6 +24,7 @@
   "OrderComponentTemplate": {},
   "OrderDataSource": {
     "CustomGallerySample": 9,
+    "Duplicate Records": 11,
     "Employee_Tbls": 10,
     "Employee_Tbls\\cr7dc_employee_tbl_cr7dc_designation": 0,
     "Employee_Tbls\\cr7dc_employee_tbl_cr7dc_location": 4,
@@ -53,6 +55,7 @@
     "Screen1": 0,
     "Separator1": 6,
     "Subtitle1": 5,
+    "Subtitle1_1": 5,
     "Title1": 3
   },
   "ResourcesJsonIndices": {
@@ -61,7 +64,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1423164,
+    "AnalysisLoadTime": 0.1407343,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
@@ -71,7 +74,7 @@
       "rectangle": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.6187874,
+    "DeserializationLoadTime": 1.0005757,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": false

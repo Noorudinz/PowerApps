@@ -7,6 +7,11 @@
         "Employee_Tbl main form": "adc389b5-15e7-ec11-bb3c-000d3a1b9658",
         "Information": "6ea0bd2c-87ea-4117-bd81-defd697fca80"
       }
+    },
+    {
+      "Kind": "default.cds_duplicaterecord_forms",
+      "Namespace": "Duplicate Records (Forms)",
+      "Values": {}
     }
   ]
 }
